@@ -1,0 +1,129 @@
+/* contact.css */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    background-image: url('../Assets/img/Contact-bg.png');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .contact-info {
+    margin-left: 150px;
+    flex: 1;
+  }
+  
+  .contact-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-details {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .contact-item p{
+font-size: 18px;
+  }
+  
+  .contact-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .contact-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-form {
+    flex: 1;
+  }
+  
+  .contact-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #39B449;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2ac;
+  }
+  
+  .contact-input {
+    display: flex;
+    justify-content: left;
+    height: 40px;
+    width: 500px;
+  }
+.number{
+    font-weight: 500;
+  }
+  .contact-textarea {
+    display: flex;
+    justify-content: left;
+    height: 120px;
+    width: 500px;
+  }
+  
+  .contact-btn {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding: 10px 25px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #39B449;
+    transition:  0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #186e24;
+  }
+
+  .sent{
+    display: flex;
+    justify-content: left;
+  }
+
+  .tick-icon{
+    margin: 3px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .contact-section {
+        display: block;
+        height: 80;
+    }
+    .contact-info {
+        margin-left: 0px;
+
+    }
+
+    .contact-input,
+    .contact-textarea {
+        width:  350px;
+    }
+  }

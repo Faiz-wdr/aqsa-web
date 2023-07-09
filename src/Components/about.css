@@ -1,0 +1,230 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 0;
+    margin-top: 77px;
+    margin-left: 130px;
+  }
+  
+  .about-left {
+    width: 40%;
+  }
+  
+  .about-right {
+    width: 55%;
+  }
+  .text-sec-abt{
+    margin-left: 80px;
+  }
+  .about-left h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-left p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    text-align: left;
+    text-align: justify;  /* Align text to the left */
+  }
+  
+  .office-bearers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .member {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .members {
+    margin-right: 100px;
+  }
+  .leader{
+    color: #343434;
+    font-weight: 300;
+  }
+  .member-image1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder color */
+    background-image: url('../Assets/img/image3.svg');
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .member-image2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder color */
+    background-image: url('../Assets/img/image4.svg');
+     background-size: cover;
+    margin-bottom: 10px;
+  }
+  .member-image3 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder color */
+    background-image: url('../Assets/img/image5.svg');
+     background-size: cover;
+    margin-bottom: 10px;
+  }
+  
+  .member-details {
+    text-align: center; /* Center align member details */
+  }
+  
+  .member-details h4 {
+    margin-bottom: 5px;
+    text-align: center; /* Center align member name */
+  }
+  
+  .member-details p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666;
+    text-align: center; /* Center align member designation */
+  }
+  
+  .vice-presidents,
+  .secretaries {
+    margin-top: 30px;
+  }
+  
+  .vice-presidents .member,
+  .secretaries .member {
+    display: inline-block;
+    width: 50%;
+  }
+  
+  .secretaries .member {
+    width: 50%;
+  }
+  
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #343434;
+  }
+  
+
+hr{
+    position: absolute;
+    width: 500px;
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 150px;
+    border-color: #34343423;
+    border-width: 1px;
+}
+
+
+
+  h4{
+
+    text-align: left;
+    margin-top: 5px;
+  }
+
+  .members p{
+    margin-top: 5px;
+  }
+  .member h4{
+    color: #297000;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  h2{
+    color: #39B449;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .year{
+    color: #7C7C7C;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .members{
+        display: flex;
+        flex-direction: row;
+    }
+    .member-image1, .member-image2, .member-image3 {
+        height: 80px;
+        width: 80px;
+
+    }
+    .member h4{
+      font-size: 20px;
+      width:max-content;
+      margin-left: -50px;
+    }
+
+    #name-right{
+      text-align: left;
+      margin-left: 1px;
+    }
+    .about-content {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .member-details {
+        margin-left: 20px;
+        width: 150px;
+        
+    }
+    .member-details h4, p{
+        text-align: left;
+    }
+    .member-details p{
+        text-align: left;
+    }
+    .text-sec-abt h2{
+        margin-left: -75px;
+
+    }
+    .text-sec-abt p{
+        width: 500px;
+        margin-left: -75px;
+    }
+    hr{
+        width: 250px;
+    }
+    .text-sec-abt p{
+      font-size: 13px;
+      width: 400px;
+    }
+    .about-right h2{
+      width: max-content;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .about-content {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

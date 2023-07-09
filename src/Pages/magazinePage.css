@@ -1,0 +1,114 @@
+
+html {
+  scroll-behavior: smooth;
+}
+.magazine-page {
+  margin-top: 200px; ;
+  }
+  
+  .magazine-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .magzi-cntn{
+    height:  75vh;
+  }
+  .magazine-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .magazine-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .magazine-card {
+    width: 200px;
+    padding: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 105px;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+  }
+  
+  .magazine-card:hover {
+    border: 1px solid #39B449;
+    border-radius: 8px;
+  }
+  .magazine-cover {
+    display: flex;
+    justify-content: left;
+    width: 204px;
+    height: 284px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .magazine-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #39B449;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px;
+    width: max-content;
+  }
+  
+  .magazine-language,
+  .magazine-date {
+    font-family: 'Poppins', sans-serif;
+    color: #747474;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  .magazine-language{
+    margin-bottom: -10px;
+  }
+
+  .value-lang-date{
+    font-weight: 400;
+    color: black;
+  }
+  
+  .read-button {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding: 6px 20px;
+    background-color: #39B449;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
+
+    .magazine-page {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .magzi-cntn {
+      flex: 1;
+    }
+    Footer{
+      margin-top: auto;
+    }
+  }
+

@@ -1,0 +1,96 @@
+.navbar {
+  font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  
+  .logo {
+    display: flex;
+  }
+
+  
+  .aqsa{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+  }
+  .nav-elements ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-elements ul li {
+    margin: 0 25px;
+    position: relative;
+  }
+  
+  .nav-elements ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-elements ul li:hover a {
+    color: #39B449;
+  }
+  
+  .nav-elements ul li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #39B449;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-elements ul li:hover::after {
+    transform: scaleX(1);
+  }
+  .btn, .btn-m{
+    font-family: 'Poppins', sans-serif;
+    color: #075800;
+    background-color: white;
+    border: 1px solid #075800;
+    border-radius: 7px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .btn-m{
+    display: none;
+  }
+
+  .btn:hover{
+    background-color: #39B449;
+    border:1px solid #39B449;
+    color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-elements{
+      display: none;
+    }
+
+    .navbar {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .btn-m{
+      display: block;
+    }
+    .btn{
+      display: none;
+    }
+  }

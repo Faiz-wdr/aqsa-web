@@ -1,0 +1,44 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .hero-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    height: 82vh;
+    background-image: url(../Assets/img/HeroPage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-text{
+    margin-top: 130px;
+  }
+
+  .hero-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    color: #343434;
+  }
+
+  .hero-text p{
+    font-size: 20px;
+    margin-top: -20px;
+  }
+ 
+  @media screen and (max-width: 768px) {
+
+    .hero-text{
+
+      margin-left: 50px;
+    }
+    .hero-text h1{
+      text-align: left;
+      font-size: 30px;
+    }
+    .hero-text p{
+      text-align: left;
+      font-size: 15px;
+    }
+
+  }

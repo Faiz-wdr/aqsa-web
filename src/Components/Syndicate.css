@@ -1,0 +1,89 @@
+
+.syndicate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .syndicate-heading {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .syndicate-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: -5px;
+    margin-bottom: 20px;
+  }
+  
+  .syndicate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .syndicate-card {
+    width: 400px;
+    border: 0.5px solid #ccc;
+    border-radius: 8px;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .syndicate-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .syndicate-card-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .syndicate-card-details {
+    margin-left: 10px;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .syndicate-card-heading {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  .syndicate-card-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #7C7C7C;
+    font-size: 14px;
+    margin-top: -15px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .syndicate-section {
+        margin-top: 300px;
+    }
+    .syndicate-card {
+        margin: 10px;
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .syndicate-card {
+        
+      width: 100%;
+    }
+  }
