@@ -17,6 +17,12 @@
   .text-sec-abt{
     margin-left: 80px;
   }
+
+  .text-sec-abt a{
+    color: black;
+text-decoration: none;
+font-weight: 500;
+  }
   .about-left h2 {
     font-size: 20px;
     margin-bottom: 20px;
