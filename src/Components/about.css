@@ -213,16 +213,13 @@ hr{
         margin-left: -75px;
 
     }
-    .text-sec-abt p{
-        width: 500px;
-        margin-left: -105px;
-    }
     hr{
         width: 250px;
     }
     .text-sec-abt p{
       font-size: 13px;
-      width: 400px;
+      width: 370px;
+      margin-left: -75px;
     }
     .about-right h2{
       width: max-content;
