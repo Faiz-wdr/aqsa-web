@@ -27,6 +27,11 @@
   }
  
   @media screen and (max-width: 768px) {
+    .hero-section {
+      background-image: url(../Assets/img/Mobile-bg.jpg);
+      background-size: cover;
+    }
+
 
     .hero-text{
 

@@ -64,7 +64,7 @@ const Contact = () => {
           <div className="contact-item">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
             <p className="contact-text">Companymukku, NITC, Kozhikode, <br></br>
-   &nbsp;&nbsp;  Kerala, India, 673601, 0465 22 88 313</p>
+   <span className='space'>&nbsp;&nbsp;</span>  Kerala, India, 673601, 0465 22 88 313</p>
           </div>
         </div>
       </div>
