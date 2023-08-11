@@ -49,7 +49,7 @@ const MagazinePage = () => {
     <div className="magazine-page">
     <div className='magzi-cntn'>
       <h2 className="magazine-heading">Magazines</h2>
-      <p className="magazine-description">Explore our collection of magazines</p>
+      <p className="magazine-description">Explore our collection of magazines published by AQSA</p>
       <div className="magazine-list">
         {magazines.map(magazine => (
           <div key={magazine.id} className="magazine-card">

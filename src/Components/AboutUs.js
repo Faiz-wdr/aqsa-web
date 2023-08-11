@@ -70,7 +70,9 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
             <h4>Jasil Karamoola</h4>
           </div>
           <div className="member" id='name-right'>
-            <h4>Dilshad Kizhisseri <span className='leader'>(Leader)</span></h4>
+            <h4>Dilshad Kizhisseri 
+            {/* <span className='leader'>(Leader)</span> */}
+            </h4>
           </div>
           <div className="member">
             <h4>Saeed Kannu</h4>

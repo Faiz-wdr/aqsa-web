@@ -17,7 +17,8 @@ const Footer = () => {
             <li><a href="/">About Us</a></li>
             <li><a href="/">Syndicates</a></li>
             <li><a href="/">Gallery</a></li>
-            <li><a href="/">Magazines</a></li>
+            <li><Link to="/Blogs">Blogs</Link></li>
+            <li><Link to="/MagazinePage">Magazines</Link></li>
           </ul>
         </nav>
         <div className="footer-social">

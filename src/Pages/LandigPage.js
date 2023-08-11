@@ -35,6 +35,7 @@ function LandingPage() {
             <li><a href="#about-section">About Us</a></li>
             <li><a href="#Syndicates">Syndicates</a></li>
             <li><a href="#Gallery">Gallery</a></li>
+            <li><Link to="/Blogs">Blogs</Link></li>
             <li><Link to="/MagazinePage">Magazines</Link></li>
           </ul>
         </div>

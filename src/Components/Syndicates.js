@@ -2,50 +2,58 @@
 
 import React from 'react';
 import './Syndicate.css';
-import logo2 from '../Assets/img/qdlogo.svg';
+import Quality from '../Assets/img/qdlogo.svg';
+import Health from '../Assets/icons/Health.svg'
+import Publish from '../Assets/icons/Publish.svg'
+import Media from '../Assets/icons/Media.svg'
+import Library from '../Assets/icons/Library.svg'
+import Language from '../Assets/icons/Language.svg'
+import Islamic from '../Assets/icons/IslamicResearch.svg'
+import SSF from '../Assets/icons/ssf.svg'
+import Cultural from '../Assets/icons/cultural.svg'
 
 const departments = [
   {
-    logo: logo2,
+    logo: Quality,
     name: 'Quality & Development',
     description: 'Focused on ensuring excellence and continuous improvement in all aspects of our association'
   },
   {
-    logo: logo2,
+    logo: Health,
     name: 'Health & Reception',
     description: 'Dedicated to promoting well-being and providing support to students through healthcare and welcoming services'
   },
   {
-    logo: logo2,
+    logo: SSF,
     name: 'SSF Campus Sector',
     description: 'Empowering Minds, Enriching Futures Strengthening Students Potential'
   },
   {
-    logo: logo2,
+    logo: Publish,
     name: 'Publishing Bureau',
     description: 'Engaged in producing and disseminating relevant publications to inform and engage the student community'
   },
   {
-    logo: logo2,
+    logo: Cultural,
     name: 'Cultural & Arts',
     description: 'Promoting cultural and fostering artistic expression among students through various initiatives'
   },
   {
-    logo: logo2,
+    logo: Media,
     name: 'Media',
     description: 'Responsible for effective communication, media coverage, and sharing information within the association and beyond'
   }, {
-    logo: logo2,
+    logo: Library,
     name: 'Library & Information',
     description: 'Providing access to knowledge and resources, facilitating research, and promoting information literacy'
   },
   {
-    logo: logo2,
+    logo: Islamic,
     name: 'Islamic Research',
     description: 'Engaged in studying and advancing understanding of Islamic principles and their relevance to students lives'
   },
   {
-    logo: logo2,
+    logo: Language,
     name: 'Language Department',
     description: 'Focused on enhancing language skills and offering language learning opportunities to students'
   },
@@ -71,7 +79,7 @@ const Syndicate = () => {
   return (
     <div className="syndicate-section" id='Syndicates'>
       <h2 className="syndicate-heading">Syndicates</h2>
-      <p className="syndicate-description">One line description</p>
+      <p className="syndicate-description">Various departments under AQSA</p>
       <div className="syndicate-list">{renderDepartments()}</div>
     </div>
   );

@@ -26,7 +26,7 @@ const Gallery = () => {
   return (
     <div className="gallery-sections" id='Gallery'>
       <h2 className="gallery-heading">Gallery</h2>
-      <p className="gallery-description">One line description</p>
+      <p className="gallery-description">Images of various events held by AQSA</p>
       <div className='image-card'>
       <div className="gallery-grid">
         {imageList.map((image) => (
