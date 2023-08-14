@@ -4,9 +4,9 @@ import React from 'react';
 import './Gallery.css';
 import image1 from '../Assets/img/image1.jpg';
 import image2 from '../Assets/img/image2.jpg'
-import image3 from '../Assets/img/image6.jpg'
-import image4 from '../Assets/img/image7.jpg'
-import image5 from '../Assets/img/image8.jpg'
+import image3 from '../Assets/img/image3.jpg'
+import image4 from '../Assets/img/image4.jpg'
+import image5 from '../Assets/img/image5.jpg'
 import image6 from '../Assets/img/image6.jpg'
 import image7 from '../Assets/img/image7.jpg'
 import image8 from '../Assets/img/image8.jpg'

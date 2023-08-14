@@ -2,7 +2,10 @@
 
 import React from 'react';
 import './magazinePage.css';
+import LauhulAug from '../Assets/img/Lah-Aug.jpg';
 import MagazineCover from '../Assets/img/magazine1.png';
+import InspiraAug from '../Assets/img/Inspira-Aug.jpg';
+import NilavuAug from '../Assets/img/Nilavu-Aug.jpg';
 import Footer from '../Components/Footer';
 
 const MagazinePage = () => {
@@ -12,34 +15,34 @@ const MagazinePage = () => {
   const magazines = [
     {
       id: 1,
-      cover: MagazineCover,
-      name: 'Magazine 1',
-      language: 'English',
-      publishedDate: 'May 2023',
-      link: 'https://online.fliphtml5.com/ohujj/wqld/'
+      cover: NilavuAug,
+      name: 'നിലാവ്',
+      language: 'Malayalam',
+      publishedDate: 'August 2023',
+      link: 'https://online.fliphtml5.com/ohujj/nkmz/'
     },
     {
       id: 2,
-      cover: MagazineCover,
-      name: 'Magazine 2',
-      language: 'Spanish',
-      publishedDate: 'June 2023',
-      link: 'https://online.fliphtml5.com/ohujj/wqld/'
+      cover: LauhulAug,
+      name: 'ضوء القمر',
+      language: 'Arabic',
+      publishedDate: 'August 2023',
+      link: 'https://online.fliphtml5.com/ohujj/utsv/'
     },
     {
       id: 3,
-      cover: MagazineCover,
-      name: 'Magazine 3',
-      language: 'French',
-      publishedDate: 'July 2023',
-      link: 'https://online.fliphtml5.com/ohujj/wqld/'
+      cover: InspiraAug,
+      name: 'Inspira',
+      language: 'English',
+      publishedDate: 'August 2023',
+      link: 'https://online.fliphtml5.com/ohujj/pnnh/'
     },
     {
       id: 4,
       cover: MagazineCover,
-      name: 'വളണ്ടിയർ',
-      language: 'German',
-      publishedDate: 'August 2023',
+      name: 'Inspira',
+      language: 'English',
+      publishedDate: 'September 2020',
       link: 'https://online.fliphtml5.com/ohujj/wqld/'
     }
   ];

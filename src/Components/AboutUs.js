@@ -9,7 +9,7 @@ function AboutUs() {
       <div className='text-sec-abt'>
         <h2>About Us</h2>
         <p>
-An educational institution stands apart with its held high among a slew of information and technological institutions with its accent on grooming young men in to scholars fully imbued with the true spirit of Islam ever ready to meet the challenges of modern world. At present, more than 500 students are studying in various institutions like Junior and Senior Da’wa colleges, Hifz-ul-Qur’an college, Integrated Hifz Campus (IHC) with English school affiliated to CBSE, Alqamar Khaima for intellectual and moral Activation (ALKHAIMA) and Women’s Academy under the tutelage of Alqamar.
+        <a href='https://alqamareducom.wordpress.com/'>ALQAMAR</a> is an islamic educational institution stands apart with its held high among a slew of information and technological institutions with its accent on grooming young men in to scholars fully imbued with the true spirit of Islam ever ready to meet the challenges of modern world. At present, more than 500 students are studying in various institutions like Junior and Senior Da’wa colleges, Hifz-ul-Qur’an college, Integrated Hifz Campus (IHC) with English school affiliated to CBSE, Alqamar Khaima for intellectual and moral Activation (ALKHAIMA) and Women’s Academy under the tutelage of Alqamar.
 AQSA, which stands for ALQAMAR STUDENTS' ASSOCIATION, is an integral part of <a href='https://alqamareducom.wordpress.com/'>ALQAMAR</a> Institute, our esteemed educational institution. With a diverse range of departments, AQSA serves as a dynamic platform for student engagement and empowerment.
 
 The Quality & Development department within AQSA is dedicated to upholding excellence and ensuring continuous improvement in all aspects of our institute. Through rigorous quality assessments and strategic development initiatives, this department strives to enhance the overall educational experience for students.
@@ -36,7 +36,7 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
             <div className="member-image2"></div>
             <div className="member-details">
               <h4>Ajmal Kannur</h4>
-              <p>Vice President</p>
+              <p>General Secretary</p>
             </div>
           </div>
           <div className="members">
@@ -75,7 +75,7 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
             </h4>
           </div>
           <div className="member">
-            <h4>Saeed Kannu</h4>
+            <h4>Saeed Kannur</h4>
           </div>
           <div className="member" id='name-right'>
             <h4>Afsal Nallur</h4>

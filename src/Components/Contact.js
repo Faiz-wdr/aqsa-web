@@ -95,7 +95,6 @@ const Contact = () => {
           <button type="submit" disabled={isLoading} className="contact-btn">
           {isLoading ? 'Sending...' : 'Send Message'}</button>
           {isSuccess && <p className='sent'>Message sent successfully!<FontAwesomeIcon className='tick-icon' icon={faCircleCheck} style={{color: "#36fa00",}} /></p>}
-           {/* <p className='sent'>Message sent successfully! <FontAwesomeIcon className='tick-icon' icon={faCircleCheck} style={{color: "#36fa00",}} /></p> */}
         </form>
       </div>
     </div>

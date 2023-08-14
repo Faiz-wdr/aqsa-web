@@ -49,7 +49,7 @@ const departments = [
   },
   {
     logo: Islamic,
-    name: 'Islamic Research',
+    name: 'Islamic Research Hub',
     description: 'Engaged in studying and advancing understanding of Islamic principles and their relevance to students lives'
   },
   {
