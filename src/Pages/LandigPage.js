@@ -8,6 +8,7 @@ import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import AQSALogo from '../Assets/img/aqsa-logo.svg'
 import { Link } from 'react-router-dom';
+import Popup from '../Components/popup';
 
 
 function LandingPage() {
@@ -44,6 +45,7 @@ function LandingPage() {
           <button className="btn-m" onClick={() => { window.location.href = '/MagazinePage'; }}>Magazines</button>
         </div>
       </header>
+      <Popup />
       <div className="hero-section">
       <div className='hero-text'>
         <h1>Cultivating Leaders of Tomorrow:<br></br>

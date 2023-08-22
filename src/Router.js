@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import MagazinePage from './Pages/Magazines';
 import LandingPage from './Pages/LandigPage';
 import Blogs from './Pages/Blogs';
+import Popup from './Components/popup';
 
 
 function Router() {

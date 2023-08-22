@@ -1,0 +1,164 @@
+
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+.count-cntnt{
+    margin-top: 10%;
+}
+.ill-img{
+    height: 25%;
+    width: 25%;
+}
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Add styles for showing the popup */
+  .popup-container.show {
+    opacity: 1;
+  }
+  .popup-container{
+    background-image: url(./Popup-bg.gif);
+    background-size: cover;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+    background-color: aquamarine;
+    border-radius: 30px;
+  }
+  .overlay.show {
+    opacity: 1;
+  }
+  .close-button {
+    position: absolute;
+    bottom: -50px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #39B449;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* ... Other styles ... */
+  
+  /* Add styles for the countdown */
+  .countdown {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+    .countdown p{
+font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  margin-bottom: -20px;
+    }
+.letters{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.ltr{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.ready{
+font-size: 35px;
+}
+  .countdown p{
+    color: white;
+    text-align: center;
+  }
+  
+  /* Add styles for each countdown unit */
+  .countdown-unit {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #39b44900;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  /* ... (same as previous code) ... */
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .count-cntnt{
+        margin-top: 45%;
+    }
+    
+    
+    .ill-img{
+        height: 55%;
+        width: 55%;
+    }
+    .countdown-unit {
+        margin: 0 10px;
+    }
+    .letters{
+        font-size: 35px;
+    }
+    .ready{
+font-size: 30px;
+}
+  }
