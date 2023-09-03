@@ -130,6 +130,29 @@ font-size: 35px;
   .App-link {
     color: #61dafb;
   }
+.dp-c{
+  margin-top: 50px;
+}
+@keyframes backgroundAnimation {  
+  0% {
+    background-color: #3960b4;
+  }
+  50% {
+    background-color: #b44139; /* Change to your desired background color */
+  }
+  100% {
+    background-color: #b439a2;
+  }
+}
+  .dp-link{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #39B449;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+     animation: backgroundAnimation 4s infinite;
+  }
 
 
   
@@ -144,7 +167,7 @@ font-size: 35px;
   
   @media screen and (max-width: 767px) {
     .count-cntnt{
-        margin-top: 45%;
+        margin-top: 35%;
     }
     
     
@@ -160,5 +183,8 @@ font-size: 35px;
     }
     .ready{
 font-size: 30px;
+}
+.dp-link{
+  font-size: 13px;
 }
   }

@@ -69,6 +69,9 @@ function Popup() {
             </div>
             <p className='ready'>Get Ready!</p>
           </div>
+          <div className='dp-c'>
+          <a className='dp-link' href='https://twb.nz/illumina-12th'>Set your social media Profile pictures »</a>
+          </div>
           </div>
           </div>
           <button className="close-button" onClick={() => setShowPopup(false)}>
