@@ -4,7 +4,7 @@ import Illumina from '../Assets/img/red.svg'
 
 function Popup() {
   const [showPopup, setShowPopup] = useState(false);
-  const countdownDate = new Date('2023-10-20').getTime();
+  const countdownDate = new Date('2023-11-10').getTime();
 
   // Set the delay before showing the popup (in milliseconds)
   const popupDelay = 1000; // Adjust as needed
@@ -70,7 +70,7 @@ function Popup() {
             <p className='ready'>Get Ready!</p>
           </div>
           <div className='dp-c'>
-          <a className='dp-link' href='https://twb.nz/illumina-12th'>Set your social media Profile pictures »</a>
+          <a className='dp-link' href='https://twb.nz/illumina-12th'>Set your social media Profile Picture »</a>
           </div>
           </div>
           </div>
