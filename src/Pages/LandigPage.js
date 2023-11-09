@@ -36,16 +36,17 @@ function LandingPage() {
             <li><a href="#about-section">About Us</a></li>
             <li><a href="#Syndicates">Syndicates</a></li>
             <li><a href="#Gallery">Gallery</a></li>
+            <li><a className='illum' href="https://illumina-results.framer.website/">iLLUMINA</a></li>
             <li><Link to="/Blogs">Blogs</Link></li>
             <li><Link to="/MagazinePage">Magazines</Link></li>
           </ul>
         </div>
         <div className="contact-button">
           <button className='btn' onClick={scrollToConatct}>Let's Talk</button>
-          <button className="btn-m" onClick={() => { window.location.href = '/MagazinePage'; }}>Magazines</button>
+          <button className="btn-m illum" onClick={() => { window.location.href = 'https://illumina-results.framer.website/'; }}>iLLUMINA</button>
         </div>
       </header>
-      <Popup />
+      {/* <Popup /> */}
       <div className="hero-section">
       <div className='hero-text'>
         <h1>Cultivating Leaders of Tomorrow:<br></br>
