@@ -23,31 +23,31 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
         </div>
       </div>
       <div className="about-right">
-        <h2>Office bearers <span className='year'>2023-24</span></h2>
+        <h2>Office bearers <span className='year'>2024-25</span></h2>
         <div className="office-bearers">
           <div className="members">
             <div className="member-image1"></div>
             <div className="member-details">
-              <h4>Fayiz Thirur</h4>
+              <h4>Saeed Kannur</h4>
               <p>President</p>
             </div>
           </div>
           <div className="members">
             <div className="member-image2"></div>
             <div className="member-details">
-              <h4>Ajmal Kannur</h4>
+              <h4>Thanseeh Matool</h4>
               <p>General Secretary</p>
             </div>
           </div>
           <div className="members">
             <div className="member-image3"></div>
             <div className="member-details">
-              <h4>Faiz Wandoor</h4>
+              <h4>Jasir Vettupara</h4>
               <p>Finance Secretary</p>
             </div>
           </div>
         </div>
-        <h3>Vice Presidents</h3>
+        {/* <h3>Vice Presidents</h3>
         <hr />
         <div className="vice-presidents">
           <div className="member">
@@ -62,29 +62,23 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
           <div className="member" id='name-right'>
             <h4>Sahal Kummoli</h4>
           </div>
-        </div>
+        </div> */}
         <h3>Secretaries</h3>
         <hr />
         <div className="secretaries">
           <div className="member">
-            <h4>Jasil Karamoola</h4>
+            <h4>Afsal Kannur</h4>
           </div>
           <div className="member" id='name-right'>
-            <h4>Dilshad Kizhisseri 
+            <h4>Sahal Kummoli
             {/* <span className='leader'>(Leader)</span> */}
             </h4>
           </div>
           <div className="member">
-            <h4>Saeed Kannur</h4>
+            <h4>Nizam Kappad</h4>
           </div>
           <div className="member" id='name-right'>
             <h4>Afsal Nallur</h4>
-          </div>
-          <div className="member">
-            <h4>Jasir Vettuppara</h4>
-          </div>
-          <div className="member" id='name-right'>
-            <h4>Thanseeh Mattool</h4>
           </div>
           <div className="member">
             <h4>Uvais Kattippara</h4>
@@ -93,10 +87,22 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
             <h4>Muhsin Kayakkodi</h4>
           </div>
           <div className="member">
-            <h4>Nijad Adivaram</h4>
+            <h4>Yaseen Kuttyadi</h4>
           </div>
           <div className="member" id='name-right'>
-            <h4>Yaseen Kuttyadi</h4>
+            <h4>Yazeed Nallur</h4>
+          </div>
+          <div className="member">
+            <h4>Aashiq Kuttiadi</h4>
+          </div>
+          <div className="member" id='name-right'>
+            <h4>Thajudheen omassery</h4>
+          </div>
+          <div className="member" id='name-right'>
+            <h4>Shabeeb Nadammal Poyil</h4>
+          </div>
+          <div className="member" id='name-right'>
+            <h4>Adnan Kondotty</h4>
           </div>
         </div>
       </div>
