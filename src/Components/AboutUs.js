@@ -47,10 +47,10 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
             </div>
           </div>
         </div>
-        {/* <h3>Vice Presidents</h3>
+    <h3>Secretariat</h3>
         <hr />
         <div className="vice-presidents">
-          <div className="member">
+          {/* <div className="member">
             <h4>Fayiz Mangapoyil</h4>
           </div>
           <div className="member" id='name-right'>
@@ -58,23 +58,24 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
           </div>
           <div className="member">
             <h4>Nizam Kappad</h4>
-          </div>
+          </div> */}
           <div className="member" id='name-right'>
-            <h4>Sahal Kummoli</h4>
+            <h4>Yunus Thrissur<span className='leader'> &nbsp;&nbsp; (Leader)</span></h4>
+            
           </div>
-        </div> */}
-        <h3>Secretariat</h3>
-        <hr />
+        </div>
+        {/* <h3>Secretariat</h3>
+        <hr /> */}
         <div className="secretaries">
-        <div className="member">
-            <h4>Yunus Thrissur</h4>
-          </div>
+        {/* <div className="member">
+            <h4>Yunus Thrissur </h4><br />
+          </div> */}
           <div className="member">
             <h4>Afsal Kannur</h4>
           </div>
           <div className="member" id='name-right'>
             <h4>Sahal Kummoli
-            {/* <span className='leader'>(Leader)</span> */}
+            
             </h4>
           </div>
           <div className="member">
@@ -106,9 +107,6 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
           </div>
           <div className="member" id='name-right'>
             <h4>Adnan Kondotty</h4>
-          </div>
-          <div className="member" id='name-right'>
-            <h4> </h4>
           </div>
         </div>
       </div>
