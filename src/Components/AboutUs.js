@@ -63,9 +63,12 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
             <h4>Sahal Kummoli</h4>
           </div>
         </div> */}
-        <h3>Secretaries</h3>
+        <h3>Secretariat</h3>
         <hr />
         <div className="secretaries">
+        <div className="member">
+            <h4>Yunus Thrissur</h4>
+          </div>
           <div className="member">
             <h4>Afsal Kannur</h4>
           </div>
@@ -103,6 +106,9 @@ Cultural & Arts is an exciting department within AQSA that celebrates and promot
           </div>
           <div className="member" id='name-right'>
             <h4>Adnan Kondotty</h4>
+          </div>
+          <div className="member" id='name-right'>
+            <h4> </h4>
           </div>
         </div>
       </div>
